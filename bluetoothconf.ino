@@ -1,5 +1,5 @@
 #include<SoftwareSerial.h>
-SoftwareSerial bt(10,11);
+SoftwareSerial bt(10,11);//RX,TX
 void setup(){
   bt.begin(38400);
   Serial.begin(38400);
